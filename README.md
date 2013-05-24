@@ -31,7 +31,7 @@ Install Arduino Firmata v2.2
 sensors
 ```
 VCC -> CdS -> AnalogInput0
-           -> 100Ω -> GND
+           -> 330Ω -> GND
 ```
 
 Run
