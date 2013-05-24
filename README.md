@@ -29,10 +29,13 @@ Install Arduino Firmata v2.2
 
 
 sensors
-```
-VCC -> CdS -> AnalogInput0
-           -> 330Ω -> GND
-```
+- light
+  - analog input 0
+  - CdS and 330Ω
+- temperature
+  - analog input 1
+  - [LM35DZ](http://akizukidenshi.com/catalog/g/gi-00116/)
+
 
 Run
 ---
