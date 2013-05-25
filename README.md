@@ -3,6 +3,7 @@ Linda Arduino Sensor
 report Arduino's sensor values with RocketIO::Linda
 
 * https://github.com/shokai/linda-arduino-sensor
+* write tuple ["sensor", "light", 120] and ["sensor", "temperature", 25] every second.
 
 
 Dependencies
