@@ -41,7 +41,16 @@ sensors
 Run
 ---
 
-    % bundle exec ruby linda-arduino-sensor.rb "http://linda.example.com"
+set ENV var "LINDA_BASE" and "LINDA_SPACE"
+
+    % export LINDA_BASE=http://linda.example.com
+    % export LINDA_SPACE=test
+    % bundle exec ruby linda-arduino-sensor.rb
+
+
+oneline
+
+    % LINDA_BASE=http://linda.example.com LINDA_SPACE=test  bundle exec ruby linda-arduino-sensor.rb
 
 
 Install as Service
