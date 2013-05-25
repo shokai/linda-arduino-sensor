@@ -4,7 +4,7 @@ require 'sinatra/rocketio/linda/client'
 require 'arduino_firmata'
 $stdout.sync = true
 
-arduino = ArduinoFirmata.connect
+arduino = ArduinoFirmata.connect ENV["ARDUINO"]
 
 url   = ENV["LINDA_BASE"]  || ARGV.shift || "http://localhost:5000"
 space = ENV["LINDA_SPACE"] || "test"
