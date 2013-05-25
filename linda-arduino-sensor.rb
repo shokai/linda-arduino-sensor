@@ -13,7 +13,7 @@ linda = Sinatra::RocketIO::Linda::Client.new url
 ts = linda.tuplespace[space]
 
 linda.io.on :connect do  ## RocketIO's "connect" event
-  puts "connect!! <#{session}>"
+  puts "connect!! <#{linda.io.session}> (#{linda.io.type})"
 end
 
 linda.io.on :disconnect do
