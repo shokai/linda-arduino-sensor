@@ -10,6 +10,7 @@ Dependencies
 ------------
 - [Arduino Firmata](https://github.com/shokai/arduino_firmata)
 - Ruby 1.8.7 ~ 2.0.0
+- EventMachine
 - [LindaBase](https://github.com/shokai/linda-base)
 
 
