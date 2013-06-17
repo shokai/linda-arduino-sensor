@@ -22,13 +22,12 @@ EM::run do
     puts "RocketIO disconnected.."
   end
 
-  loop do
+  EM::add_periodic_timer 1 do
     light = arduino.analog_read 0
     puts "light : #{light}"
     ts.write ["sensor", "light", light]
     temp  = arduino.analog_read(1).to_f*5*100/1024
     puts "temperature : #{temp}"
     ts.write ["sensor", "temperature", temp]
-    sleep 1
   end
 end
