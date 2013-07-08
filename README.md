@@ -39,6 +39,7 @@ sensors
   - analog input 1
   - [LM35DZ](http://akizukidenshi.com/catalog/g/gi-00116/)
 
+<img src="http://farm6.staticflickr.com/5443/8952129460_3ed3003697_z.jpg">
 
 Run
 ---
